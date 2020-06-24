@@ -42,7 +42,7 @@ public class FacebookIdentityProvider extends AbstractOAuth2IdentityProvider imp
 
 	public static final String AUTH_URL = "https://graph.facebook.com/oauth/authorize";
 	public static final String TOKEN_URL = "https://graph.facebook.com/oauth/access_token";
-	public static final String PROFILE_URL = "https://graph.facebook.com/me?fields=id,name,email,first_name,last_name,gender,profile_pic,location";
+	public static final String PROFILE_URL = "https://graph.facebook.com/me?fields=id,name,email,first_name,last_name,gender,location,picture";
 	public static final String DEFAULT_SCOPE = "email";
 
 	public FacebookIdentityProvider(KeycloakSession session, OAuth2IdentityProviderConfig config) {
